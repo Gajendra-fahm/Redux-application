@@ -11,6 +11,7 @@ const ProductList = () => {
         dispatch(ProductListDataAction());
     }, [dispatch])
 
+    // show errors
     if (error) {
         return <div>Error: {error}</div>;
       }
